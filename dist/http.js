@@ -20,7 +20,7 @@ var Http = (function () {
         if (body) {
             options.body = body;
         }
-        options.headers['content-type'] = 'application/json';
+        options.headers['content-type'] = options.headers['content-type'] || 'application/json';
         return options;
     };
     return Http;

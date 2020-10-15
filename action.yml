@@ -1,5 +1,5 @@
 name: 'Webhook Action'
-author: "Joel Male"
+author: "Karthik"
 description: 'Send a webhook event to anywhere!'
 branding:
   icon: 'alert-octagon'  
