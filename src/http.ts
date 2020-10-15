@@ -20,7 +20,7 @@ class Http {
     }
 
     // set these headers
-    options.headers['content-type'] = 'application/json';
+    options.headers['content-type'] = options.headers['content-type'] || 'application/json';
 
     return options;
   }
